@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #acd2e6;
+  color: #000000; /* Aumentar contraste */
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  background: #018dce;
+  padding: 20px 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px;
+}
+  
+a:hover {
+  color: #999;
+}
+
+ul {
+  display: flex;
+}
+
+.divisao {
+  display: flex;
+}
+
+.alinhamento {
+  width: 50%;
+  margin: 10px;
+}
+
+p {
+  font-family: 'Roboto';
+}
+
+.inteiro {
+  width: 99%;
+  padding: 7px;
+}
+
+h1 {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+label,
+input {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.caixas {
+  width: 99%;
+  border: 1px solid #000; /* Aumentar contraste */
+}
+
+.questionario {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pessoa,
+.animal {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px;
+  position: relative;
+}
+
+.pessoa::after,
+.animal::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  opacity: 0.8;
+  z-index: -1;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px rgb(122, 119, 119);
+}
+
+button {
+  background: #c97a3e;
+  font-weight: bold;
+  border-color: #c4c4c4;
+  width: 100px;
+  height: 30px;
+  color: #fff; /* Aumentar contraste */
+}
+
+button:focus {
+  outline: 2px solid #ff0000; /* Para foco com teclado */
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  background: #018dce;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  margin-top: 20px;
+  margin-left: 0;
+}
